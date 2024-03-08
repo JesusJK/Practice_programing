@@ -18,6 +18,7 @@ public class Book {
         this.loanDate = loanDate;
         this.returnDate = returnDate;
         this.avaliable = true;
+       
     }
     void lendBook(){
         this.avaliable = false;
