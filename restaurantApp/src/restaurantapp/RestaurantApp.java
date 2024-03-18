@@ -1,7 +1,11 @@
 package restaurantapp;
 
+import food.Dish;
+import food.DishType;
+import food.Menu;
 import people.Customer;
 import values.CustomerRole;
+
 
 public class RestaurantApp {
 
@@ -11,6 +15,18 @@ public class RestaurantApp {
         
         Customer administrative = new Customer(CustomerRole.ADMINISTRATIVE, "pta", "blasphemous de tal");
         administrative.sellFood();
+        
+        //clase/instancia
+        Menu menu = new Menu();
+        
+        Dish breakfast1 = new Dish(DishType.BREAKFAST, "Huevos fritos", "Huevo, Sal y pimienta", 2400, 20 );
+        Dish breakfast2 = new Dish(DishType.BREAKFAST, "caldo de huevo", "Huevo, papa, tostadas", 2400, 25 );
+        Dish lunch1 = new Dish(DishType.LUNCH, "carne frita", "carne , papas fritas", 2400, 18 );
+        
+        
+        menu.addDish(breakfast1);
+        menu.addDish(breakfast2);
+        menu.addDish(lunch1);
     }  
     
 }

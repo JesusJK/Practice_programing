@@ -22,7 +22,7 @@ public class Listas {
         System.out.println("¿Esta vacia?" + list.isEmpty());
         System.out.println("Valores de la lista " + list);
         
-        System.out.println("saluda? " + list.contains("hola"));
+        System.out.println("saluda? " + list.contains("Hola"));
         
         for (int i=0; i < list.size(); i++ ){
             System.out.println(list.get(i));
