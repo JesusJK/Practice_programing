@@ -1,4 +1,5 @@
-package food;
+package restaurantapp;
+
 
 import java.util.ArrayList;
 
@@ -28,5 +29,12 @@ public class Menu {
         }
         return foundDishes;
     }
+    
+    public void showMenu(){
+        for (DishType dishType : DishType.values()) {
+            System.out.println("---" + dishType + "---");
+        }
+    }
+    
             
 }

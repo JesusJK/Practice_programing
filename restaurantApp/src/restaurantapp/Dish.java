@@ -1,4 +1,4 @@
-package food;
+package restaurantapp;
 
 
 public class Dish {

@@ -1,4 +1,4 @@
-package values;
+package restaurantapp;
 
 public enum CustomerRole {
 //enum es enumerar

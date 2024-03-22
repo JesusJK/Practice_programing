@@ -1,9 +1,9 @@
-package people;
-import values.CustomerRole;
+package restaurantapp;
 public class Customer {
         CustomerRole role;
         String id;
         String fullname;
+        
     public Customer(CustomerRole role, String id, String fullname) {
         this.role = role;
         this.id = id;
@@ -21,6 +21,7 @@ public class Customer {
         void cancelBuy(){
             
         }
+
         
         public void sellFood(){
             if(this.role != CustomerRole.ADMINISTRATIVE){
