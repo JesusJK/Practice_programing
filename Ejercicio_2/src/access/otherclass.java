@@ -1,7 +1,7 @@
 package access;
 
 public class otherclass {
-    void sayHello(){
+     void sayHello(){
         System.out.println("Hello");
     }
     

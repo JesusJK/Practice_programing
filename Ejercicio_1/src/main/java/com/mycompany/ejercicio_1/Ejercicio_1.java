@@ -10,8 +10,6 @@ public class Ejercicio_1 {
         Book book5 = new Book ("La divina comedia", 40, 231, "poesia");
         
         
-        
-        
     }
     
 }
