@@ -13,6 +13,17 @@ public class Vehicle {
         this.carplate = carplate;
         this.sizecapacity = sizecapacity;
     }
+
+    public int getSizecapacity() {
+        return sizecapacity;
+    }
+
+    public void setSizecapacity(int sizecapacity) {
+        this.sizecapacity = sizecapacity;
+    }
+
+    
+    
     
     
 }

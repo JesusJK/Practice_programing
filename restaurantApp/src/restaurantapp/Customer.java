@@ -1,4 +1,5 @@
 package restaurantapp;
+import java.util.Scanner;
 public class Customer {
         CustomerRole role;
         String id;
@@ -11,6 +12,8 @@ public class Customer {
     }
         
         void sayMenu(){
+            System.out.println("¿Que Desea comprar el dia de hoy?");
+            System.out.println("1.Desayuno  2.Almuerzo  3.Comida");
             
         }
         

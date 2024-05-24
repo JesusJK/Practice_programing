@@ -9,6 +9,8 @@ public class Ejercicio_1 {
         Book book4 = new Book ("El verdugo Electrico", 35, 179, "ciencia ficcion");
         Book book5 = new Book ("La divina comedia", 40, 231, "poesia");
         
+        System.out.println("se leyo el libro");
+        
         
     }
     

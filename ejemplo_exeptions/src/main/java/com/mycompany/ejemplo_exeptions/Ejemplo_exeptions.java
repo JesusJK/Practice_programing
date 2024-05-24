@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ejemplo_exeptions {
 
     public static void main(String[] args) throws Exception {
-        System.out.println("Escriba un número");
+        System.out.println("Escriba un numero");
         Scanner sc = new Scanner(System.in);
         
         int number = sc.nextInt();

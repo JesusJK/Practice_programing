@@ -20,6 +20,7 @@ public class Book {
         this.avaliable = true;
        
     }
+   
     void lendBook(){
         this.avaliable = false;
         
@@ -30,10 +31,6 @@ public class Book {
         this.avaliable = true;
     }
      
-     
     
-    
-    
-
     
 }

@@ -13,8 +13,8 @@ public class Listas {
         list.add("mundo");
         list.add("cruel");
         
-        list.set(1, "gente");
-        list.remove(2);
+        list.set(0, "hello"); //remplaza el valor por la posicion del principio
+              // remueve el elemneto de esa posicion
         
         System.out.println(list.get(0));
         
